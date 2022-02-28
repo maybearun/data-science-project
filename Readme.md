@@ -1,17 +1,16 @@
 # Data
-The dataset selected for the presentation is a Multivariate dataset on **Chess End-Game -- King+Rook versus King+Pawn on a7 with White to move**. The pawn on a7 means it is one square away from queening. <br/>
-The format for instances in this database is a sequence of 37 attribute values. <br/>
-Each instance is a board-descriptions for this chess endgame. 
+The dataset selected for the presentation is a dataset on **Housing Prices in Metropolitan Areas of India-Mumbai**. <br/>
+The dataset includes 40 explanatory variables describing various aspects of new and resale houses in the metropolitan areas of India <br/>
+Each instance includes:
 <ul>
-    <li>The first
-    36 attributes describe the position of the pieces on the chess board.</li>
-    <li>The last (37th) attribute is the
-    classification: "win" or "nowin".</li>
+    <li>Collection of prices of new and resale houses located in the metropolitan areas of India.</li>
+    <li>the amenities provided for each house</li>
 </ul>
 <br/>
+Note: Since for a set of houses, nothing was mentioned about certain amenities, '9' was used to mark such values, which could indicate the absence of information about the apartment but these values don't ascertain the absence of such a feature in real life
 
 # Aim
-To classify chess endgame positions into <i>win</i> or <i>not win</i> for white. 
+To predict the final price of houses in these regions.
 
 <br/>
 
